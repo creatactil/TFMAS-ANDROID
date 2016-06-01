@@ -88,7 +88,7 @@ var app = {
               // NOTIFICACION!!!
               //alert('message = '+e.message+' msgcnt = '+e.msgcnt);
 			  //globo();
-			  crearLista();
+			  //crearLista();
             break;
  
             case 'error':
@@ -106,7 +106,7 @@ var app = {
         
         if (event.alert) {
            // navigator.notification.alert(event.alert);
-		globo();
+		//globo();
 		//crearLista();
         }
         if (event.badge) {
