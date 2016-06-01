@@ -40,11 +40,9 @@ function inicio(){
 		}
 	
 	
-	
-	
-	
-	
 	comprobarid();
-	
+	cargarPatrocinadores();
+	cargarPrograma();
+	cargarStreaming()
 	crearListaNovedades();
 }
